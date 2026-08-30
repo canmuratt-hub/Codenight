@@ -35,6 +35,9 @@ services:
       JWT_REFRESH_TTL: 7d
       OTP_SIMULATION_CODE: 1234
       QR_HMAC_SECRET: change-this-to-a-very-long-qr-hmac-secret-32-chars-plus
+      ENABLE_DEMO_ORDER_BOOTSTRAP: "true"
+      DEMO_OWNER_EMAIL: owner@gmail.com
+      SHOP_OWNER_LOGIN_PASSWORD: dukkan123
     ports:
       - "3000:3000"
     depends_on:
