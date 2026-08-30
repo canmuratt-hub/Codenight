@@ -104,4 +104,4 @@ git remote add origin https://github.com/<kullaniciadi>/<repoadi>.git
 git push -u origin main
 ```
 
-Bu README, proje yapısını ve çalıştırma adımlarını göstermeyi amaçlar. Gerekirse frontend/backend için detaylı kullanım kılavuzu da ekleyebilirim.
+
